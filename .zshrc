@@ -46,6 +46,7 @@ mkcd(){
 
 bindkey -e
 
+alias bup="brew upgrade && brew update"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions -a"
 alias src="source ~/.config/zsh/.zshrc"
 alias ..="cd .."
